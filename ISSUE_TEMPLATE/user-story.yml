@@ -1,0 +1,21 @@
+name: User story
+description: A need with acceptance criteria
+labels: ["docs"]
+body:
+  - type: textarea
+    id: story
+    attributes:
+      label: Story
+      value: |
+        As a ...
+        I want ...
+        So that ...
+    validations:
+      required: true
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Acceptance criteria
+      value: |
+        - [ ] ...
+        - [ ] ...
