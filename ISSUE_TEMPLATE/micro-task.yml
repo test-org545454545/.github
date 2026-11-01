@@ -1,0 +1,15 @@
+name: Micro-task
+description: A short task for newcomers
+labels: ["onramp"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What to do
+    validations:
+      required: true
+  - type: dropdown
+    id: time
+    attributes:
+      label: Estimated time
+      options: ["15 min", "30 min", "1 h"]
